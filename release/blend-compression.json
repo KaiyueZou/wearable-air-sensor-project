@@ -1,0 +1,29 @@
+[
+  {
+    "path": "source/film/Approved_v3.blend",
+    "decoded_bytes": 38906816,
+    "decoded_sha256": "9ca25f5afe6429dda5d8f9c5f415b255503c1e35bae640cc5fc0e8a749830b84",
+    "repacked_bytes": 1674391,
+    "repacked_sha256": "cb95281d56800cbc5c3f39fbd834137635cb5442114ee2df5865dc7bfbefe1f8",
+    "path_fields_cleaned": 8,
+    "method": "Fixed-size local-path metadata cleanup, followed by Zstandard level 19; all non-path decompressed bytes retained."
+  },
+  {
+    "path": "models/Sensor_Mechanism_Panorama.blend",
+    "decoded_bytes": 42982960,
+    "decoded_sha256": "45a5737fe1194caf67617fecd5d15f967c29ffe405125fbbe70622b7745b5d6a",
+    "repacked_bytes": 1921188,
+    "repacked_sha256": "7ac932cb9b6e8566f46543bf0f7b898dcaf3676ac03dfd3f5631eb45c6aa3288",
+    "path_fields_cleaned": 8,
+    "method": "Fixed-size local-path metadata cleanup, followed by Zstandard level 19; all non-path decompressed bytes retained."
+  },
+  {
+    "path": "models/Watch_Sensor_Zoom.blend",
+    "decoded_bytes": 6871540,
+    "decoded_sha256": "a1a44fcdcd66a39f850562d60f60c4e641b2511c8bb3abb9a212706561b4eda7",
+    "repacked_bytes": 713586,
+    "repacked_sha256": "6c69471d4db8b00a2e49e4e5137cbbd52fcd32630a06157b5dbc34379a3efe9a",
+    "path_fields_cleaned": 7,
+    "method": "Fixed-size local-path metadata cleanup, followed by Zstandard level 19; all non-path decompressed bytes retained."
+  }
+]

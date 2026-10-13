@@ -1,0 +1,79 @@
+1
+00:00:00,000 --> 00:00:06,000
+One full turn introduces the optical head and the open ambient air channel.
+
+2
+00:00:06,000 --> 00:00:12,000
+L1 is Laser 1, the particle-measurement source. L2 is Laser 2, used to inspect Window 2.
+
+3
+00:00:12,000 --> 00:00:18,000
+W1 and W2 are Window 1 and Window 2. They separate the optical assemblies from the ambient air channel.
+
+4
+00:00:18,000 --> 00:00:24,000
+C1 is Camera 1, checking Window 1. C2 is Camera 2, collecting particle scatter and checking Window 2 in separate exposures.
+
+5
+00:00:24,000 --> 00:00:30,000
+Ambient air occupies the open sensing channel. The shielded beam trap absorbs the main beam after Window 2.
+
+6
+00:00:30,000 --> 00:00:42,000
+Laser 1 illuminates airborne particles.
+Camera 2 collects their scattered light.
+
+7
+00:00:42,000 --> 00:00:54,000
+Laser 1 crosses Window 1 and the air channel,
+then exits through Window 2.
+
+8
+00:00:54,000 --> 00:01:06,000
+Particles scatter light toward Camera 2.
+The collection path passes through Window 2.
+
+9
+00:01:06,000 --> 00:01:18,000
+Camera 2 selects an airborne region.
+The main beam continues into a shielded absorbing trap.
+
+10
+00:01:18,000 --> 00:01:30,000
+Deposits on Window 1 and Window 2
+can interfere with the particle signal.
+
+11
+00:01:30,000 --> 00:01:42,000
+Laser 1 illuminates Window 1.
+Camera 1 checks surface scatter against a clean baseline.
+
+12
+00:01:42,000 --> 00:01:54,000
+Particle measurement and window inspection
+use time-separated exposures.
+
+13
+00:01:54,000 --> 00:02:06,000
+Laser 2 illuminates Window 2
+from the receiver side.
+
+14
+00:02:06,000 --> 00:02:18,000
+Camera 2 observes Window 2
+in a separate diagnostic exposure.
+
+15
+00:02:18,000 --> 00:02:30,000
+Measurement may continue if window checks pass
+future calibrated limits. No proven numerical stain correction.
+
+16
+00:02:30,000 --> 00:02:42,000
+If window checks exceed calibrated limits,
+reject the reading and show a cleaning warning.
+
+17
+00:02:42,000 --> 00:02:54,000
+Clean both windows, then recheck before measurement.
+Illustrative concept; sensor performance is not validated.

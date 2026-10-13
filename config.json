@@ -1,0 +1,8 @@
+{
+  "blender_version": "4.3.2",
+  "pipelines": {
+    "film": {"duration": 174, "fps": 24, "frames": 4176, "resolution": [1280, 720], "output": "Sensor_Mechanism_Panorama_174s.mp4"},
+    "tour": {"duration": 32, "fps": 15, "frames": 480, "resolution": [960, 640], "output": "Sensor_360_Labeled.mp4"},
+    "watch": {"duration": 20, "fps": 16, "frames": 320, "resolution": [960, 720], "output": "Watch_Sensor_Zoom.mp4"}
+  }
+}

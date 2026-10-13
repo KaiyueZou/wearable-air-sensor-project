@@ -1,0 +1,323 @@
+[
+  {
+    "start": 0.0,
+    "end": 6.0,
+    "title": "A complete\nview",
+    "caption": "One full turn introduces the optical head and the open ambient air channel.",
+    "highlight_cues": [
+      {
+        "component": "AIR",
+        "start": 0.4,
+        "end": 2.7
+      }
+    ]
+  },
+  {
+    "start": 6.0,
+    "end": 12.0,
+    "title": "Two light\nsources",
+    "caption": "L1 is Laser 1, the particle-measurement source. L2 is Laser 2, used to inspect Window 2.",
+    "highlight_cues": [
+      {
+        "component": "L1",
+        "start": 6.4,
+        "end": 8.7
+      },
+      {
+        "component": "L2",
+        "start": 8.9,
+        "end": 11.2
+      }
+    ]
+  },
+  {
+    "start": 12.0,
+    "end": 18.0,
+    "title": "Two optical\nwindows",
+    "caption": "W1 and W2 are Window 1 and Window 2. They separate the optical assemblies from the ambient air channel.",
+    "highlight_cues": [
+      {
+        "component": "W1",
+        "start": 12.399999999999999,
+        "end": 14.7
+      },
+      {
+        "component": "W2",
+        "start": 14.899999999999999,
+        "end": 17.2
+      }
+    ]
+  },
+  {
+    "start": 18.0,
+    "end": 24.0,
+    "title": "Two cameras",
+    "caption": "C1 is Camera 1, checking Window 1. C2 is Camera 2, collecting particle scatter and checking Window 2 in separate exposures.",
+    "highlight_cues": [
+      {
+        "component": "C1",
+        "start": 18.4,
+        "end": 20.7
+      },
+      {
+        "component": "C2",
+        "start": 20.9,
+        "end": 23.2
+      }
+    ]
+  },
+  {
+    "start": 24.0,
+    "end": 30.0,
+    "title": "Air channel\nand beam trap",
+    "caption": "Ambient air occupies the open sensing channel. The shielded beam trap absorbs the main beam after Window 2.",
+    "highlight_cues": [
+      {
+        "component": "AIR",
+        "start": 24.4,
+        "end": 26.7
+      },
+      {
+        "component": "TRAP",
+        "start": 26.9,
+        "end": 29.2
+      }
+    ]
+  },
+  {
+    "start": 30.0,
+    "end": 42.0,
+    "title": "Clean windows \u2022 particle measurement",
+    "caption": "Laser 1 illuminates airborne particles.\nCamera 2 collects their scattered light.",
+    "highlight_cues": [
+      {
+        "component": "L1",
+        "start": 30.96,
+        "end": 34.2
+      },
+      {
+        "component": "C2",
+        "start": 34.8,
+        "end": 38.4
+      }
+    ]
+  },
+  {
+    "start": 42.0,
+    "end": 54.0,
+    "title": "Primary light path",
+    "caption": "Laser 1 crosses Window 1 and the air channel,\nthen exits through Window 2.",
+    "highlight_cues": [
+      {
+        "component": "L1",
+        "start": 42.839999999999996,
+        "end": 44.64
+      },
+      {
+        "component": "W1",
+        "start": 45.0,
+        "end": 46.8
+      },
+      {
+        "component": "W2",
+        "start": 48.0,
+        "end": 50.4
+      }
+    ]
+  },
+  {
+    "start": 54.0,
+    "end": 66.0,
+    "title": "Airborne particle signal",
+    "caption": "Particles scatter light toward Camera 2.\nThe collection path passes through Window 2.",
+    "highlight_cues": [
+      {
+        "component": "Particles",
+        "start": 54.96,
+        "end": 57.599999999999994
+      },
+      {
+        "component": "W2",
+        "start": 57.96,
+        "end": 60.36
+      },
+      {
+        "component": "C2",
+        "start": 60.72,
+        "end": 63.6
+      }
+    ]
+  },
+  {
+    "start": 66.0,
+    "end": 78.0,
+    "title": "Selected measurement region",
+    "caption": "Camera 2 selects an airborne region.\nThe main beam continues into a shielded absorbing trap.",
+    "highlight_cues": [
+      {
+        "component": "C2_ROI",
+        "start": 66.96000000000001,
+        "end": 70.8
+      },
+      {
+        "component": "Trap",
+        "start": 72.0,
+        "end": 75.6
+      }
+    ]
+  },
+  {
+    "start": 78.0,
+    "end": 90.0,
+    "title": "Stains on both windows",
+    "caption": "Deposits on Window 1 and Window 2\ncan interfere with the particle signal.",
+    "highlight_cues": [
+      {
+        "component": "W1",
+        "start": 78.96,
+        "end": 82.19999999999999
+      },
+      {
+        "component": "W2",
+        "start": 83.4,
+        "end": 87.0
+      }
+    ]
+  },
+  {
+    "start": 90.0,
+    "end": 102.0,
+    "title": "Inspect Window 1",
+    "caption": "Laser 1 illuminates Window 1.\nCamera 1 checks surface scatter against a clean baseline.",
+    "highlight_cues": [
+      {
+        "component": "L1",
+        "start": 90.6,
+        "end": 92.75999999999999
+      },
+      {
+        "component": "W1",
+        "start": 93.12,
+        "end": 95.39999999999999
+      },
+      {
+        "component": "C1",
+        "start": 96.0,
+        "end": 99.6
+      }
+    ]
+  },
+  {
+    "start": 102.0,
+    "end": 114.0,
+    "title": "Separate exposures",
+    "caption": "Particle measurement and window inspection\nuse time-separated exposures.",
+    "highlight_cues": [
+      {
+        "component": "C2",
+        "start": 102.96,
+        "end": 106.2
+      }
+    ]
+  },
+  {
+    "start": 114.0,
+    "end": 126.0,
+    "title": "Illuminate Window 2",
+    "caption": "Laser 2 illuminates Window 2\nfrom the receiver side.",
+    "highlight_cues": [
+      {
+        "component": "L2",
+        "start": 114.96,
+        "end": 118.44
+      },
+      {
+        "component": "W2",
+        "start": 119.04,
+        "end": 123.24
+      }
+    ]
+  },
+  {
+    "start": 126.0,
+    "end": 138.0,
+    "title": "Inspect Window 2",
+    "caption": "Camera 2 observes Window 2\nin a separate diagnostic exposure.",
+    "highlight_cues": [
+      {
+        "component": "W2",
+        "start": 126.96,
+        "end": 130.2
+      },
+      {
+        "component": "C2",
+        "start": 130.8,
+        "end": 135.0
+      }
+    ]
+  },
+  {
+    "start": 138.0,
+    "end": 150.0,
+    "title": "Accept only within calibrated limits",
+    "caption": "Measurement may continue if window checks pass\nfuture calibrated limits. No proven numerical stain correction.",
+    "highlight_cues": [
+      {
+        "component": "W1",
+        "start": 138.95999999999998,
+        "end": 141.6
+      },
+      {
+        "component": "W2",
+        "start": 141.95999999999998,
+        "end": 144.6
+      },
+      {
+        "component": "C2",
+        "start": 145.2,
+        "end": 147.84
+      }
+    ]
+  },
+  {
+    "start": 150.0,
+    "end": 162.0,
+    "title": "Excess contamination \u2022 reject",
+    "caption": "If window checks exceed calibrated limits,\nreject the reading and show a cleaning warning.",
+    "highlight_cues": [
+      {
+        "component": "W1",
+        "start": 150.95999999999998,
+        "end": 153.6
+      },
+      {
+        "component": "W2",
+        "start": 153.95999999999998,
+        "end": 156.6
+      },
+      {
+        "component": "Warning",
+        "start": 157.2,
+        "end": 160.2
+      }
+    ]
+  },
+  {
+    "start": 162.0,
+    "end": 174.0,
+    "title": "Clean both windows \u2022 recheck",
+    "caption": "Clean both windows, then recheck before measurement.\nIllustrative concept; sensor performance is not validated.",
+    "highlight_cues": [
+      {
+        "component": "W1",
+        "start": 162.95999999999998,
+        "end": 165.95999999999998
+      },
+      {
+        "component": "W2",
+        "start": 166.56,
+        "end": 169.56
+      }
+    ]
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "integration_date": "2026-10-13",
+  "inputs": {
+    "Sensor_Mechanism_Panorama_Source.zip": {
+      "bytes": 8518494,
+      "sha256": "ba7067b4ca22c9a50f4cf783ffaf74052738c642772ad4fd5e82a271c7d48292"
+    },
+    "Sensor_Website_Extras.zip": {
+      "bytes": 11323034,
+      "sha256": "8d461d853763a7dde6c7c402ad322d55c0839dfb3d63e830be0da67d4f7f1ee4"
+    },
+    "Sensor_Mechanism_Panorama_174s.mp4": {
+      "bytes": 8476389,
+      "sha256": "9c373aaa1b7aa96274a3ad4785b1e7a911e79d524532452c0c56c1368afca020"
+    }
+  },
+  "decisions": [
+    "Three sensor scenes proved byte-identical and consolidated in models/.",
+    "Distinct Approved_v3.blend retained as required film builder input.",
+    "Open Sans fonts and notices consolidated; each pipeline stages shared inputs at runtime.",
+    "Accepted MP4 outputs preserved byte-for-byte; film MP4 was delivered separately from original source ZIP.",
+    "GLB revised to clean-measurement state with 51 hardware meshes, two paths and 15 particles.",
+    "Generated frame caches, logs, old archive manifests, backup scenes and experimental outputs excluded.",
+    "Original GIF outputs included for the public project repository; website uses MP4 equivalents.",
+    "Visual algorithms unchanged apart from portable path handling, subset smoke options and missing-frame guards.",
+    "Regenerable film metadata, visibility masks and layout caches omitted; accepted packed scene and complete generating algorithms retained.",
+    "Existing compact tour contact sheet used as gallery; duplicate large preview PNG omitted.",
+    "Blender files losslessly repacked with Zstandard level 19; exact decoded-byte identity recorded separately.",
+    "Publication audit removed embedded build-machine paths from three Blender scenes using fixed-size null-padded relative paths; all other decompressed bytes retained. Current hashes recorded in blend-compression.json."
+  ]
+}

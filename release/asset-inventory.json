@@ -1,0 +1,46 @@
+{
+  "assets": [
+    {
+      "path": "media/Sensor_360_Labeled.mp4",
+      "included": true,
+      "bytes": 1454592,
+      "sha256": "21b632cf18afce9df1fc38baac253ffaca22ff1db3d882d198d7b3a8e9632459"
+    },
+    {
+      "path": "media/Sensor_Mechanism_Panorama_174s.mp4",
+      "included": true,
+      "bytes": 8476389,
+      "sha256": "9c373aaa1b7aa96274a3ad4785b1e7a911e79d524532452c0c56c1368afca020"
+    },
+    {
+      "path": "media/Watch_Sensor_Zoom.mp4",
+      "included": true,
+      "bytes": 2414429,
+      "sha256": "5ffd605deeb543c8eeec7ad75ac2dd124d36dcb9bc6d95073894bdb32a5c3c48"
+    },
+    {
+      "included": true,
+      "resolution": [
+        720,
+        480
+      ],
+      "frames": 480,
+      "duration_seconds": 32,
+      "bytes": 17655612,
+      "sha256": "072834a43f3ea75fafc4b43c7f567165591932c727b024261bdfb7e9f0d351ef",
+      "path": "media/Sensor_360_Labeled.gif"
+    },
+    {
+      "included": true,
+      "resolution": [
+        800,
+        600
+      ],
+      "frames": 240,
+      "duration_seconds": 20,
+      "bytes": 17401046,
+      "sha256": "e7a28378254554253c55dd45a6572fc1adaba288448bfbe1d015637f14e4e4b4",
+      "path": "media/Watch_Sensor_Zoom.gif"
+    }
+  ]
+}
